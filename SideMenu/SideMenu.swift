@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SideMenu<RenderView: View>: View {
+struct SideMenuView<RenderView: View>: View {
     @Binding var isShowing: Bool
     var direction: Edge
     @ViewBuilder var content: RenderView
